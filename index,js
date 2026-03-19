@@ -1,0 +1,46 @@
+let num1 = 8;
+let num2 = 4;
+let result;
+
+document.getElementById("num1-el").textContent = num1
+document.getElementById("num2-el").textContent = num2
+let sumL = document.getElementById("sum-el")
+
+function add(){
+    result = num1 + num2;
+    sumL.textContent = "Sum is"+ " " + result;
+}
+
+
+function subtract(){
+    result = num1 - num2;
+    sumL.textContent = "Difference:" + " " + result;
+}
+
+function multiply(){
+    result = num1 * num2;
+    sumL.textContent = "Product:" + " " + result;
+}
+
+function divide(){
+    result = num1 / num2;
+    sumL.textContent = "Division:" + " " + result;
+}
+
+countEl = document.getElementById("countEl")
+saveL = document.getElementById("save-L")
+
+count = 0;
+
+function increment(){
+    count++;
+    countEl.textContent = count
+}
+
+function save(){
+    saveL.textContent = count + "" + " persons were counted today."
+    countEl.textContent = 0;
+    count = 0;
+}
+
+

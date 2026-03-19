@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jjinja Karoli Parish </title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">   
+        <link href="css/style.css" rel="stylesheet">
+        
+        <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    </head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+            <div class="container">
+            <a class="navbar-brand" href="images/logo.jpg">
+                <i class="fas fa-church me-2"></i>St. Charles Lwanga Jjinja Karoli Parish
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ministries</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="container-fluid">
+            <div class="card">
+                <img style="height: 500px;" class="card-img img-fluid blur-image" src="https://st3.depositphotos.com/1005563/17289/i/1600/depositphotos_172898362-stock-photo-sacrament-of-communion-eucharist-symbol.jpg"/>
+                <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-white">
+                     <h1 class="display-4 fw-bold">Contact Us</h1>
+                     
+                     <button class="btn btn-success text-white">Feel At Home</button>
+                </div>
+            /div>
+
+        </div>
+
+    <!-- Contact Information & Form -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mb-4">
+                    <h2 class="section-title">Send Us a Message</h2>
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="firstName" class="form-label">First Name *</label>
+                                <input type="text" class="form-control" id="firstName" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="lastName" class="form-label">Last Name *</label>
+                                <input type="text" class="form-control" id="lastName" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address *</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject *</label>
+                            <select class="form-select" id="subject" required>
+                                <option value="" selected disabled>Please select a subject</option>
+                                <option>General Inquiry</option>
+                                <option>Sacraments (Baptism, Marriage, etc.)</option>
+                                <option>Volunteering Opportunities</option>
+                                <option>Event Information</option>
+                                <option>Prayer Request</option>
+                                <option>Facility Rental</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-info">
+                        <h3 class="section-title">Contact Information</h3>
+                        <div class="mb-4">
+                            <p><i class="fas fa-map-marker-alt contact-icon"></i> 123 Church Street, Anytown, USA 12345</p>
+                            <p><i class="fas fa-phone contact-icon"></i> (555) 123-4567</p>
+                            <p><i class="fas fa-envelope contact-icon"></i> info@stmarysparish.org</p>
+                            <p><i class="fas fa-fax contact-icon"></i> (555) 123-4568</p>
+                        </div>
+                        
+                        <h4 class="mt-4">Office Hours</h4>
+                        <ul class="list-unstyled">
+                            <li>Monday - Thursday: 9:00 AM - 5:00 PM</li>
+                            <li>Friday: 9:00 AM - 3:00 PM</li>
+                            <li>Saturday: 9:00 AM - 12:00 PM</li>
+                            <li>Sunday: Closed</li>
+                        </ul>
+                        
+                        <div class="mass-times mt-4">
+                            <h4>Mass Times</h4>
+                            <ul class="list-unstyled">
+                                <li><strong>Weekdays:</strong> 8:00 AM</li>
+                                <li><strong>Saturday Vigil:</strong> 5:00 PM</li>
+                                <li><strong>Sunday:</strong> 8:00 AM, 10:00 AM, 12:00 PM</li>
+                                <li><strong>Holy Days:</strong> 8:00 AM & 7:00 PM</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="sacrament-hours">
+                            <h4>Sacrament of Reconciliation</h4>
+                            <ul class="list-unstyled">
+                                <li><strong>Saturday:</strong> 3:30 PM - 4:30 PM</li>
+                                <li><strong>By appointment:</strong> Call the parish office</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Staff Contacts -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Staff Contacts</h2>
+            <div class="row mt-4">
+                <div class="col-md-4 mb-4">
+                    <div class="card contact-card text-center p-4">
+                        <img src="https://source.unsplash.com/random/300x300/?priest" alt="Fr. John Smith" class="staff-contact-img mx-auto mb-3">
+                        <h4>Fr. John Smith</h4>
+                        <p class="text-muted">Pastor</p>
+                        <p><i class="fas fa-envelope contact-icon"></i> frjohn@stmarysparish.org</p>
+                        <p><i class="fas fa-phone contact-icon"></i> Ext. 101</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card contact-card text-center p-4">
+                        <img src="https://source.unsplash.com/random/300x300/?woman" alt="Sr. Mary Johnson" class="staff-contact-img mx-auto mb-3">
+                        <h4>Sr. Mary Johnson</h4>
+                        <p class="text-muted">Director of Religious Education</p>
+                        <p><i class="fas fa-envelope contact-icon"></i> srmary@stmarysparish.org</p>
+                        <p><i class="fas fa-phone contact-icon"></i> Ext. 102</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card contact-card text-center p-4">
+                        <img src="https://source.unsplash.com/random/300x300/?man" alt="Mr. Robert Davis" class="staff-contact-img mx-auto mb-3">
+                        <h4>Mr. Robert Davis</h4>
+                        <p class="text-muted">Parish Administrator</p>
+                        <p><i class="fas fa-envelope contact-icon"></i> robert@stmarysparish.org</p>
+                        <p><i class="fas fa-phone contact-icon"></i> Ext. 103</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center">Find Us</h2>
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="ratio ratio-16x9">
+                        <!-- Embedded Google Map -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9503398796587!2d-73.99879968459426!3d40.72815797933012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598a7d8d1b3f%3A0x8bff5d83f5c7d5f5!2sSt.%20Patrick&#39;s%20Cathedral!5e0!3m2!1sen!2sus!4v1647899369185!5m2!1sen!2sus" 
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <h4>Parking Information</h4>
+                    <p>Free parking is available in our parish lot located behind the church. Additional street parking is available on surrounding streets. Handicap accessible parking spaces are located near the main entrance.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>Public Transportation</h4>
+                    <p>Our parish is easily accessible by public transportation:</p>
+                    <ul>
+                        <li>Bus routes: 12, 24, 36 (Stop at Church St & Main St)</li>
+                        <li>Subway: Red Line (Anytown Station - 2 blocks away)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h4>St. Mary's Parish</h4>
+                    <p>A community of faith, hope, and love serving God and our neighbors since 1895.</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h4>Quick Links</h4>
+                    <div class="footer-links">
+                        <p><a href="index.html">Home</a></p>
+                        <p><a href="about.html">About Us</a></p>
+                        <p><a href="contact.html">Contact Us</a></p>
+                        <p><a href="#">Ministries</a></p>
+                        <p><a href="#">Events</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to our newsletter for updates and announcements.</p>
+                    <form>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Your email">
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr class="mt-4 mb-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2023 St. Mary's Parish. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p><a href="#" class="text-white">Privacy Policy</a> | <a href="#" class="text-white">Terms of Use</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

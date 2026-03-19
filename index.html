@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jjinja Karoli Parish </title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">   
+        <link href="css/style.css" rel="stylesheet">
+        
+        <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    </head>
+    
+    <body>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <div class="container">
+            <a class="navbar-brand" href="images/logo.jpg">
+                <i class="fas fa-church me-2"></i>St. Charles Lwanga Jjinja Karoli Parish
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        
+        <!--Hero section-->
+        <div class="container-fluid">
+            <div class="card">
+                <img style="height: 500px;" class="card-img img-fluid blur-image" src="https://st3.depositphotos.com/1005563/17289/i/1600/depositphotos_172898362-stock-photo-sacrament-of-communion-eucharist-symbol.jpg" alt="Eucharist Symbol"/>
+                <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-white">
+                     <h1 class="display-4 fw-bold">Welcome</h1>
+                     <p class="card-text fs-5">
+                        In Christ we stand
+                     </p>
+                     <p class="card-text fs-5 text-center px-3">
+                        We were all made in one Christ and so we shall be all. Ad Maiorem Gloriam Dei
+                     </p>
+                     <button class="btn btn-success text-white mt-3" id="welcomeBtn">Feel At Home</button>
+                </div>
+            </div>
+        </div>
+        
+
+        <!--Parish Priest welcome message-->
+        <div class="container-fluid py-5">
+            <div class="row justify-content-evenly align-items-center">
+                <div class="col-12 col-lg-4 col-md-4 p-3">
+                    <img style="height: 500px; width: 400px;" class="img-fluid rounded shadow priest-card" src="images/fr.jpeg" alt="Parish Priest">
+                </div>
+                
+                <div class="col-12 col-lg-8 col-md-8 p-3">
+                    <h1 class="my-2"><b>You are most welcome</b></h1>
+                    <p class="my-2 fs-5">Dear brothers and sisters in Christ, it is with great joy and pleasure that I extend a heartfelt welcome to all who have come to visit our parish website.</p>
+                    <p class="my-2 fs-5">We believe it is no accident that you have found us; we believe that you are sent to us by God. Our parish strives to be a welcoming community that lives the Good News of the Gospel in its actions and programs. The parish is where we first encounter the Risen Lord in the Sacraments and receive the love and care of other people of faith.
+                        Whether you are a long-time member, new to the area, or simply exploring your faith, please know that our doors are always open, and you are a valued part of our extended family. We hope you will feel a sense of belonging and community here with us.
+                    </p>
+                    <h5 class="my-4">
+                        <b>I invite you to explore this website to learn more about our:</b>
+                    </h5>
+                    <ul class="my-2 fs-5">
+                        <li>
+                            Mass and Service Times: Find our current <a href="#" class="text-decoration-none">Mass Schedule</a> and other worship opportunities.
+                        </li>
+                        <li>
+                            Ministries and Programs: Discover ways to share your time and talent with us by exploring our various <a href="#" class="text-decoration-none">Parish Ministries</a> and activities.
+                        </li>
+                        <li>
+                            Sacramental Information: Learn about preparation for <a href="#" class="text-decoration-none">Baptism, First Communion, and other Sacraments</a>.
+                        </li>
+                        <li>
+                            Latest News & Events: Stay updated on upcoming events and community life through our <a href="#" class="text-decoration-none">Parish Calendar</a> and news section.
+                        </li>
+                    </ul>
+                    <p class="my-2 fs-5">Please feel at home and explore the website.</p>
+                </div>
+            </div>
+            
+
+            <!--Other Priests-->
+            <div class="row text-center justify-content-evenly align-items-center py-5">
+                <h1 class="mb-4"><b>Other priests at the Parish</b></h1>
+                <div class="col-12 col-lg-6 col-md-6 p-3">
+                    <img style="height: 500px; width: 400px;" class="img-fluid rounded shadow priest-card" src="images/fr.jpeg" alt="Fr. Kimbowa Charles">
+                    <h4 class="mt-3">Fr. Kimbowa Charles</h4>
+                    <button class="btn btn-outline-primary mt-2" data-bs-toggle="modal" data-bs-target="#priestModal1">Learn More</button>
+                </div>
+                
+                <div class="col-12 col-lg-6 col-md-6 p-3">
+                    <img style="height: 500px; width: 400px;" class="img-fluid rounded shadow priest-card" src="images/fr1.jpeg" alt="Fr Raymond Ssegawa">
+                    <h4 class="mt-3">Fr Raymond Ssegawa</h4>
+                    <button class="btn btn-outline-primary mt-2" data-bs-toggle="modal" data-bs-target="#priestModal2">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Sub-Parishes-->
+        <div class="container-fluid p-5 bg-dark text-center">
+            <div class="row bg-dark text-white">
+                <h1 class="mb-4"><b>DIFFERENT SUB-PARISHES</b></h1>
+                <div class="col-6 col-lg-3 col-md-4 mb-4">
+                    <img style="width: 200px; height: 100px;" src="images/photos (1)/1.JPG" class="rounded" alt="Holy Family Sub-Parish">
+                    <p class="mt-2 fs-5">Holy Family Sub-Parish Kawemoe</p>
+                </div>
+                 <div class="col-6 col-lg-3 col-md-4 mb-4">
+                    <img style="width: 200px; height: 100px;" src="images/photos (1)/a.JPG" class="sub-parish-img rounded" alt="St Balikuddembe Sub Parish">
+                    <p class="mt-2 fs-5">St Balikuddembe Sub Parish Lugoba</p>
+                </div>
+                <div class="col-6 col-lg-3 col-md-4 mb-4">
+                    <img style="width: 200px; height: 100px;" src="images/photos (1)/b.JPG" class="sub-parish-img rounded" alt="St Paul Sub Parish">
+                    <p class="mt-2 fs-5">St Paul Sub Parish Jjinja Karoli</p>
+                </div>
+                <div class="col-6 col-lg-3 col-md-4 mb-4">
+                    <img style="width: 200px; height: 100px;" src="images/photos (1)/c.JPG" class="sub-parish-img rounded" alt="St Kizito Sub Parish">
+                    <p class="mt-2 fs-5">St Kizito Wamala Sub Parish Jjinja Karoli</p>
+                </div>
+                <div class="col-6 col-lg-3 col-md-4 mb-4">
+                    <img style="width: 200px; height: 100px;" src="images/photos (1)/d.JPG" class="sub-parish-img rounded" alt="St Luke Sub Parish">
+                    <p class="mt-2 fs-5">St Luke Sub Parish Ttula</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!--USUAL SACRED EVENTS-->
+        <div class="container-fluid my-5 text-center">
+            <h1 class="display-4 my-4"><b>USUAL SACRED EVENTS</b></h1>
+            <div class="row p-3 align-items-center justify-content-center">
+                <div class="col-lg-4 col-12 col-md-4 p-2">
+                    <div class="card event-card d-flex flex-column justify-content-center align-items-center text-white">
+                        <img class="card-img blur-image" src="https://media.istockphoto.com/id/1482005258/photo/cup-of-wine-and-hosts-on-wooden-with-backlights.jpg?s=1024x1024&w=is&k=20&c=pYo3oqIV-XjEakLPw3yp5ERoi5wEAjtLJFc21uxtpAw=" alt="Daily Mass"/>
+                        <div class="justify-content-center card-img-overlay text-center d-flex flex-column">
+                            <h1 class="card-title my-2">DAILY MASS SCHEDULE</h1>
+                            <a class="btn btn-success mt-auto" href="#" id="massScheduleBtn">Checkout</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-12 col-md-4 p-2">
+                    <div class="card event-card flex-column justify-content-center text-white">
+                        <img class="card-img blur-image" src="https://media.istockphoto.com/id/1790830877/photo/an-elderly-woman-holds-a-rosary-with-a-cross-in-her-hands-and-prays-to-god.jpg?s=1024x1024&w=is&k=20&c=EKblMkrsnS1YBE8XI-wzN1vJMySEtGsowmIs7B_Oh48=" alt="Holy Sacrament"/>
+                        <div class="justify-content-center card-img-overlay text-center d-flex flex-column">
+                            <h1 class="card-title my-2">HOLY SACRAMENT</h1>
+                            <a class="btn btn-success mt-auto" href="#" id="sacramentBtn">Checkout</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-12 col-md-4 p-2">
+                    <div class="card event-card flex-column justify-content-center text-white">
+                        <img class="card-img blur-image" src="https://media.istockphoto.com/id/622181132/photo/hands-are-there-to-help-others.jpg?s=1024x1024&w=is&k=20&c=_K_Ojc21mQxJcQSeU5Mi8Zq1W9WDtph4C_tc29_Y4vc=" alt="Divine Mercy Prayers"/>
+                        <div class="justify-content-center card-img-overlay text-center d-flex flex-column">
+                            <h1 class="card-title my-2">DIVINE MERCY PRAYERS</h1>
+                            <a class="btn btn-success mt-auto" href="#" id="prayersBtn">Checkout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Priest Modals -->
+        <div class="modal fade" id="priestModal1" tabindex="-1" aria-labelledby="priestModal1Label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="priestModal1Label">Fr. Kimbowa Charles</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Fr. Kimbowa Charles has been serving at St. Charles Lwanga Jjinja Karoli Parish for 5 years. He specializes in youth ministry and community outreach programs.</p>
+                        <p>He holds a degree in Theology from Makerere University and has a passion for social justice initiatives.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="priestModal2" tabindex="-1" aria-labelledby="priestModal2Label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="priestModal2Label">Fr. Raymond Ssegawa</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Fr. Raymond Ssegawa joined our parish community 3 years ago. He focuses on adult faith formation and liturgical celebrations.</p>
+                        <p>With a background in Canon Law, he also assists with parish administrative matters and sacramental preparation.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h4>St Charles Lwanga Jjinja Karoli Parish</h4>
+                    <p>A community of faith, hope, and love serving God and our neighbors since 1895.</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h4>Quick Links</h4>
+                    <div class="footer-links">
+                        <p><a href="index.html">Home</a></p>
+                        <p><a href="about.html">About Us</a></p>
+                        <p><a href="contact.html">Contact Us</a></p>
+                        <p><a href="#">Projects</a></p>
+                        <p><a href="#">Events</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to our newsletter for updates and announcements.</p>
+                    <form>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Your email">
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr class="mt-4 mb-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2026 St Charles Lwanga Jjinja Karoli Parish. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p><a href="#" class="text-white">Privacy Policy</a> | <a href="#" class="text-white">Terms of Use</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+        
+        <script>
+            // JavaScript functionality
+            document.addEventListener('DOMContentLoaded', function() {
+                // Welcome button interaction
+                const welcomeBtn = document.getElementById('welcomeBtn');
+                if (welcomeBtn) {
+                    welcomeBtn.addEventListener('click', function() {
+                        alert('Welcome to St. Charles Lwanga Jjinja Karoli Parish! We are delighted to have you with us. May God bless you abundantly.');
+                    });
+                }
+                
+                // Event buttons functionality
+                const massScheduleBtn = document.getElementById('massScheduleBtn');
+                if (massScheduleBtn) {
+                    massScheduleBtn.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        showEventDetails('Daily Mass Schedule', 
+                            'Weekday Mass: 7:00 AM<br>Saturday Vigil: 5:00 PM<br>Sunday Mass: 8:00 AM, 10:00 AM, 12:00 PM');
+                    });
+                }
+                
+                const sacramentBtn = document.getElementById('sacramentBtn');
+                if (sacramentBtn) {
+                    sacramentBtn.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        showEventDetails('Holy Sacrament', 
+                            'Confession: Saturdays 3:00-4:30 PM<br>Eucharistic Adoration: First Fridays<br>Anointing of the Sick: By appointment');
+                    });
+                }
+                
+                const prayersBtn = document.getElementById('prayersBtn');
+                if (prayersBtn) {
+                    prayersBtn.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        showEventDetails('Divine Mercy Prayers', 
+                            'Every Friday: 3:00 PM<br>Chaplet of Divine Mercy followed by Benediction');
+                    });
+                }
+                
+                // Newsletter form submission
+                const newsletterForm = document.getElementById('newsletterForm');
+                if (newsletterForm) {
+                    newsletterForm.addEventListener('submit', function(e) {
+                        e.preventDefault();
+                        const email = document.getElementById('newsletterEmail').value;
+                        const messageDiv = document.getElementById('newsletterMessage');
+                        
+                        if (validateEmail(email)) {
+                            messageDiv.innerHTML = '<div class="alert alert-success">Thank you for subscribing to our newsletter!</div>';
+                            newsletterForm.reset();
+                            
+                            // Clear message after 3 seconds
+                            setTimeout(function() {
+                                messageDiv.innerHTML = '';
+                            }, 3000);
+                        } else {
+                            messageDiv.innerHTML = '<div class="alert alert-danger">Please enter a valid email address.</div>';
+                        }
+                    });
+                }
+                
+                // Sub-parish image loading error handling
+                const subParishImages = document.querySelectorAll('.sub-parish-img');
+                subParishImages.forEach(img => {
+                    img.addEventListener('error', function() {
+                        this.src = 'https://via.placeholder.com/300x200/2c5aa0/ffffff?text=Sub-Parish+Image';
+                        this.alt = 'Sub-parish image not available';
+                    });
+                });
+                
+                // Helper functions
+                function showEventDetails(title, content) {
+                    // Create a modal dynamically to show event details
+                    const modalHTML = `
+                        <div class="modal fade" id="eventModal" tabindex="-1" aria-labelledby="eventModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="eventModalLabel">${title}</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ${content}
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    
+                    // Remove existing modal if any
+                    const existingModal = document.getElementById('eventModal');
+                    if (existingModal) {
+                        existingModal.remove();
+                    }
+                    
+                    // Add new modal to body
+                    document.body.insertAdjacentHTML('beforeend', modalHTML);
+                    
+                    // Show the modal
+                    const eventModal = new bootstrap.Modal(document.getElementById('eventModal'));
+                    eventModal.show();
+                }
+                
+                function validateEmail(email) {
+                    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                    return re.test(email);
+                }
+                
+                // Add scroll animation to elements
+                const observerOptions = {
+                    threshold: 0.1,
+                    rootMargin: '0px 0px -50px 0px'
+                };
+                
+                const observer = new IntersectionObserver(function(entries) {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('animate__animated', 'animate__fadeInUp');
+                        }
+                    });
+                }, observerOptions);
+                
+                // Observe elements for animation
+                const elementsToAnimate = document.querySelectorAll('.priest-card, .event-card, .sub-parish-img');
+                elementsToAnimate.forEach(el => {
+                    observer.observe(el);
+                });
+            });
+        </script>
+        
+        <!-- Add Animate.css for smooth animations -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    </body>
+</html>
